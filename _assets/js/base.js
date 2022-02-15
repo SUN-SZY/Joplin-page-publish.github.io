@@ -64,7 +64,7 @@ window.onload=function(){
         //console.log(Math.floor(Math.random()*10)+1);
         var index=Math.floor(Math.random()*12)+1;
         //console.log(index+'.png');
-        var url='url(img/bg_pic/bg_'+index+'.png)';
+        var url='url(./_assets/img/bg_pic/bg_'+index+'.png)';
         //console.log('url(../img/'+index+'.png)');
         $(".bg_pic").css('background-image',url);
     }
