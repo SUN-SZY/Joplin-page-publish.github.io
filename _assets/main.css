@@ -473,6 +473,7 @@ template {
   font-size: 16px;
   line-height: 1.5;
   word-wrap: break-word;
+  display:inline-block;
 }
 
 .markdown-body .pl-c {
@@ -1227,4 +1228,10 @@ template {
     'WenQuanYi Micro Hei', sans-serif;
   text-decoration: underline dotted;
   color: #777777;
+}
+
+
+.table-of-contents {
+  position: fixed;
+  right: 50px;
 }
