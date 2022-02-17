@@ -27,7 +27,21 @@
         <title>
             Blog 的个人博客 
         </title>
+        <script type="text/javascript">
+            //<!CDATA[
+            var pic = [];
+            pic[0] = "https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302&device=mobile";
+            pic[1] = "https://cdn.seovx.com/ha/?mom=302";
+            pic[2] = "https://unsplash.it/1600/900?random";
+            pic[3] = "https://img.paulzzh.tech/touhou/random";
 
+            var randomBgIndex = Math.round(Math.random() * 3);
+
+            //输出随机的背景图
+            //document.write('<style>body{background:url(' + bodyBgs[randomBgIndex] + ') no-repeat 50% 0}</style>');
+            document.write("<img src=" + pic[randomBgIndex] + " '>")
+                //]]>
+        </script>
 </head>
 
 <body>

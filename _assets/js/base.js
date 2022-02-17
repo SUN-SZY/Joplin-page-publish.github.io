@@ -64,7 +64,7 @@ window.onload = function() {
         var index = Math.floor(Math.random() * 12) + 1;
         //console.log(index+'.png');
         // var url='url(./_assets/img/bg_pic/bg_'+index+'.png)';
-        var url = 'url(https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302)';
+        var url = 'https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302';
 
         //console.log('url(../img/'+index+'.png)');
         $(".bg_pic").css('background-image', url);
