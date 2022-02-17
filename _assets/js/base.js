@@ -62,11 +62,19 @@ window.onload = function() {
     function random_bg_pic() {
         //console.log(Math.floor(Math.random()*10)+1);
         var index = Math.floor(Math.random() * 12) + 1;
+
+        // var pic = [];
+        // pic[0] = "https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302&device=mobile";
+        // pic[1] = "https://cdn.seovx.com/ha/?mom=302";
+        // pic[2] = "https://unsplash.it/1600/900?random";
+        // pic[3] = "https://img.paulzzh.tech/touhou/random";
+        // var randomBgIndex = Math.round(Math.random() * 3);
         //console.log(index+'.png');
-        // var url='url(./_assets/img/bg_pic/bg_'+index+'.png)';
-        var url = 'https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302';
+        var url = 'url(./_assets/img/bg_pic/bg_' + index + '.png)';
+        // var url = 'https://img.xjh.me/random_img.php?type=bg&ctype=nature&return=302';
 
         //console.log('url(../img/'+index+'.png)');
+        // var url = 'url(pic[randomBgIndex])';
         $(".bg_pic").css('background-image', url);
     }
 
